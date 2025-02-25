@@ -60,6 +60,7 @@ flutter:
   assets:
     - asset/images/
     - asset/fonts/
+    - asset/data/
 
   fonts:
     - family: Pretendard-Black
