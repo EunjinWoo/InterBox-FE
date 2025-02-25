@@ -19,7 +19,14 @@ class MainPage extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           AppSearchBar(),
-          JobRow(),
+          Divider(
+            color: Color(0xFFE1E1E1),
+            thickness: 0.5,
+            height: 0, // 상하 여백
+          ),
+          JobRow(
+            jobs: ['FrontEnd', 'BackEnd', 'DataEngineering'],
+          ),
           QuestionsList(),
         ],
       ),
