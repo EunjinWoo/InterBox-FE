@@ -16,7 +16,7 @@ class LoginPage extends StatelessWidget {
             Spacer(),
             // 로고 이미지 
             Image.asset(
-              'asset/images/logo.png',
+              'assets/images/logo.png',
               width: 127,
               height: 100,
             ),

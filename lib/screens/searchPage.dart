@@ -1,18 +1,21 @@
 import 'dart:convert';
-import 'package:flutter/material.dart';
-import 'package:flutter/services.dart' show rootBundle;
-import 'package:inter_box/widgets/mainPageSearchBar.dart';
-import 'package:inter_box/widgets/jobRow.dart';
-import 'package:inter_box/widgets/questionsList.dart';
 
-class MainPage extends StatefulWidget {
-  const MainPage({super.key});
+import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:inter_box/widgets/searchPageNotice.dart';
+import 'package:inter_box/widgets/searchPageSearchBar.dart';
+
+import '../widgets/questionsList.dart';
+
+class SearchPage extends StatefulWidget {
+  const SearchPage({super.key});
 
   @override
-  _MainPageState createState() => _MainPageState();
+  State<SearchPage> createState() => _SearchPageState();
 }
 
-class _MainPageState extends State<MainPage> {
+class _SearchPageState extends State<SearchPage> {
+  String closestJob = '';
   List<Map<String, dynamic>> questions = [];
 
   @override
@@ -23,9 +26,10 @@ class _MainPageState extends State<MainPage> {
 
   // JSON 파일에서 질문 데이터 불러오기
   Future<void> loadQuestions() async {
-    final String response = await rootBundle.loadString('assets/data/mock_questions.json');
+    final String response = await rootBundle.loadString('assets/data/mock_search_api.json');
     final data = json.decode(response);
     setState(() {
+      closestJob = data['closest_job'];
       questions = List<Map<String, dynamic>>.from(data['questions']);
     });
   }
@@ -33,7 +37,6 @@ class _MainPageState extends State<MainPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
       appBar: AppBar(
         backgroundColor: Colors.white,
         elevation: 0,
@@ -41,15 +44,8 @@ class _MainPageState extends State<MainPage> {
       ),
       body: Column(
         children: [
-          MainPageSearchBar(),
-          Divider(
-            color: Color(0xFFE1E1E1),
-            thickness: 0.5,
-            height: 0, // 상하 여백
-          ),
-          JobRow(
-            jobs: ['FrontEnd', 'BackEnd', 'DataEngineering'],
-          ),
+          SearchPageSearchBar(),
+          SearchPageNotice(closestJob: closestJob),
           Expanded(
             child: QuestionsList(questions: questions),
           ),
