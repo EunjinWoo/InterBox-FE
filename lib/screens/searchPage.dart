@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:inter_box/widgets/searchPageSearchBar.dart';
 
 class SearchPage extends StatelessWidget {
   const SearchPage({super.key});
@@ -11,7 +12,11 @@ class SearchPage extends StatelessWidget {
         elevation: 0,
         toolbarHeight: 0,
       ),
-      body: Column(),
+      body: Column(
+        children: [
+          SearchPageSearchBar(),
+        ],
+      ),
     );
   }
 }

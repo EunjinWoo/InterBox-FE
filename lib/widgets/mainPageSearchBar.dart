@@ -15,7 +15,7 @@ class MainPageSearchBar extends StatelessWidget {
           children: [
             // 왼쪽 로고
             Image.asset(
-              'asset/images/logo.png',
+              'assets/images/logo.png',
               width: 48,
               height: 38,
             ),
@@ -52,7 +52,7 @@ class MainPageSearchBar extends StatelessWidget {
                         ),
                         Spacer(),
                         Image.asset(
-                          'asset/images/searchIcon.png',
+                          'assets/images/searchIcon.png',
                           width: 15,
                           height: 15,
                         ),
@@ -67,7 +67,7 @@ class MainPageSearchBar extends StatelessWidget {
             SizedBox(width: 12,),
             CircleAvatar(
               radius: 18,
-              backgroundImage: AssetImage('asset/images/profile.jpeg'), // 로컬 이미지 사용 시
+              backgroundImage: AssetImage('assets/images/profile.jpeg'), // 로컬 이미지 사용 시
               // backgroundImage: NetworkImage('https://example.com/profile.jpg'), // 네트워크 이미지 사용 시
             ),
           ],
