@@ -12,7 +12,7 @@ class EachQuestion extends StatelessWidget {
       onTap: () {
         Navigator.push(
           context,
-          MaterialPageRoute(builder: (context) => EachQuestionPage()),
+          MaterialPageRoute(builder: (context) => EachQuestionPage(question: question,)),
         );
       },
       child: Container(
