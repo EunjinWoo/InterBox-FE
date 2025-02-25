@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:inter_box/screens/mainPage.dart';
 
 class LoginPage extends StatelessWidget {
   const LoginPage({super.key});
@@ -70,6 +71,10 @@ class LoginPage extends StatelessWidget {
             ElevatedButton(
               onPressed: () {
                 // 로그인 기능 구현
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => MainPage()),
+                );
               },
               style: ElevatedButton.styleFrom(
                 backgroundColor: Color(0xFF00DD1D),
