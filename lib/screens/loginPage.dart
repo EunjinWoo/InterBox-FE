@@ -1,8 +1,17 @@
 import 'package:flutter/material.dart';
+import 'package:inter_box/elements/greenButton.dart';
 import 'package:inter_box/screens/mainPage.dart';
 
 class LoginPage extends StatelessWidget {
   const LoginPage({super.key});
+
+  void _navigateToMainPage(BuildContext context) {
+    print('btn clicked');
+    Navigator.push(
+      context,
+      MaterialPageRoute(builder: (context) => MainPage()),
+    );
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -68,30 +77,7 @@ class LoginPage extends StatelessWidget {
             Spacer(),
 
             // 로그인 버튼
-            ElevatedButton(
-              onPressed: () {
-                // 로그인 기능 구현
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) => MainPage()),
-                );
-              },
-              style: ElevatedButton.styleFrom(
-                backgroundColor: Color(0xFF00DD1D),
-                minimumSize: Size(double.infinity, 60), // 버튼 크기
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(10),
-                ),
-              ),
-              child: Text(
-                '로그인',
-                style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 18,
-                  fontFamily: 'Pretendard-ExtraBold',
-                ),
-              ),
-            ),
+            GreenButton(onPressed: () => _navigateToMainPage(context), buttonTitle: '로그인',),
             SizedBox(height: 60),
           ],
         ),
