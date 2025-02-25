@@ -61,6 +61,7 @@ class _MypageState extends State<Mypage> {
             TopAppBar(title: '마이페이지'),
             ProfileSection(profile: profile,),
             Container(
+              padding: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.start,
                 children: [
