@@ -7,6 +7,30 @@ class TopAppBar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Container(
+      height: 80,
+      padding: EdgeInsets.symmetric(horizontal: 24),
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        children: [
+          // 뒤로가기 버튼
+          GestureDetector(
+            onTap: () {
+              Navigator.pop(context); // 뒤로 가기 기능
+            },
+            child: Icon(Icons.arrow_back_ios_new_rounded, color: Colors.black, size: 24),
+          ),
+          Text(
+            title,
+            style: TextStyle(
+              fontSize: 20,
+              fontFamily: 'Pretendard-SemiBold',
+              color: Color(0xFF4F4F4F),
+            ),
+          ),
+          SizedBox(width: 24,),
+        ],
+      ),
+    );
   }
 }
