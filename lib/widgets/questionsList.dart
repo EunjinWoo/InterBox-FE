@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class QuestionsList extends StatelessWidget {
-  final List<Map<String, dynamic>> questions; // 👈 MainPage에서 데이터를 받음
+  final List<Map<String, dynamic>> questions;
 
   const QuestionsList({super.key, required this.questions});
 
@@ -31,7 +31,7 @@ class QuestionsList extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
-                      questions[index]['content'], // 👈 `content` 필드 사용
+                      questions[index]['content'],
                       style: TextStyle(
                         fontSize: 16,
                         fontFamily: 'Pretendard-SemiBold',
