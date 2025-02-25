@@ -3,7 +3,7 @@ import 'package:inter_box/elements/greenButton.dart';
 import 'package:inter_box/screens/mainPage.dart';
 import 'package:inter_box/widgets/answerSection.dart';
 import 'package:inter_box/widgets/eachQuestion.dart';
-import 'package:inter_box/widgets/topAppBar.dart';
+import 'package:inter_box/elements/topAppBar.dart';
 
 class EachQuestionPage extends StatelessWidget {
   final Map<String, dynamic> question;
@@ -42,6 +42,7 @@ class EachQuestionPage extends StatelessWidget {
                   children: [
                     EachQuestion(question: question),
                     Expanded(child: AnswerSection()),
+                    SizedBox(height: 12,),
                     GreenButton(onPressed: () => _navigateToMainPage(context), buttonTitle: '저장하기',),
                     SizedBox(height: 60),
                   ],
