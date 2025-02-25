@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:inter_box/widgets/searchPageNotice.dart';
 import 'package:inter_box/widgets/searchPageSearchBar.dart';
 
 class SearchPage extends StatelessWidget {
@@ -15,6 +16,7 @@ class SearchPage extends StatelessWidget {
       body: Column(
         children: [
           SearchPageSearchBar(),
+          SearchPageNotice(closestJob: "웹 프론트엔드"),
         ],
       ),
     );
