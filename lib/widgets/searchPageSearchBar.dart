@@ -1,7 +1,24 @@
 import 'package:flutter/material.dart';
 
-class SearchPageSearchBar extends StatelessWidget {
+class SearchPageSearchBar extends StatefulWidget {
+
   const SearchPageSearchBar({super.key});
+
+  @override
+  State<SearchPageSearchBar> createState() => _SearchPageSearchBarState();
+}
+
+class _SearchPageSearchBarState extends State<SearchPageSearchBar> {
+  final FocusNode _focusNode = FocusNode();
+
+  @override
+  void initState() {
+    super.initState();
+    // 화면이 로드될 때 TextField가 자동으로 활성화되도록 설정
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      _focusNode.requestFocus();
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -38,6 +55,7 @@ class SearchPageSearchBar extends StatelessWidget {
                   children: [
                     Expanded(
                       child: TextField(
+                        focusNode: _focusNode,
                         cursorColor: Color(0xFF3B463C),
                         style: TextStyle(
                           color: Color(0xFF3B463C),
