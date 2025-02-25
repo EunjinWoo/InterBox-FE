@@ -94,7 +94,7 @@ class _UpdateJobsModalState extends State<UpdateJobsModal> {
     );
   }
 
-  // 🔥 직군 선택 UI (클릭 시 색상 변경)
+  // 직군 선택 UI (클릭 시 색상 변경)
   Widget _buildJobItem(Map<String, dynamic> job) {
     bool isSelected = job['is_selected'];
     return Container(
