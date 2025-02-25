@@ -30,11 +30,6 @@ class EachQuestionPage extends StatelessWidget {
         child: Column(
           children: [
             TopAppBar(title: '문제 풀이'),
-            Divider(
-              color: Color(0xFFE1E1E1),
-              thickness: 0.5,
-              height: 0, // 상하 여백
-            ),
             Expanded(
               child: Container(
                 padding: EdgeInsets.symmetric(horizontal: 16, vertical: 12),
