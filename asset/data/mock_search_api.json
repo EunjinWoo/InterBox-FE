@@ -1,0 +1,145 @@
+{
+  "closest_job" : "웹 프론트엔드",
+  "questions": [
+    {
+      "id": 1,
+      "content": "클로저(Closure)에 대해 설명해주세요.",
+      "is_solved": true
+    },
+    {
+      "id": 2,
+      "content": "프론트엔드에서 보안을 고려해야 할 부분들에 대해 설명해주세요.",
+      "is_solved": false
+    },
+    {
+      "id": 3,
+      "content": "웹사이트의 초기 로딩속도를 더 빠르게 하기 위해서 무엇을 해야 할까요?",
+      "is_solved": false
+    },
+    {
+      "id": 4,
+      "content": "브라우저의 동작 원리에 대해 설명해주세요.",
+      "is_solved": false
+    },
+    {
+      "id": 5,
+      "content": "호이스팅(hoisting)에 대해 설명해주세요.",
+      "is_solved": false
+    },
+    {
+      "id": 6,
+      "content": "웹 폰트 렌더링 방식과 최적화 방법에 대해 설명해주세요.",
+      "is_solved": true
+    },
+    {
+      "id": 7,
+      "content": "prototype의 동작방식에 대해서 설명해보세요.",
+      "is_solved": false
+    },
+    {
+      "id": 8,
+      "content": "본인이 생각하는 좋은 객체지향 프로그래밍에 대해서 설명해보세요.",
+      "is_solved": false
+    },
+    {
+      "id": 9,
+      "content": "본인이 즐겨하는 디버깅 방법을 설명해보세요.",
+      "is_solved": false
+    },
+    {
+      "id": 10,
+      "content": "브라우저의 렌더링 동작 과정을 짧게 설명해보세요.",
+      "is_solved": false
+    },
+    {
+      "id": 11,
+      "content": "비동기의 장점을 설명해보세요.",
+      "is_solved": false
+    },
+    {
+      "id": 12,
+      "content": "순환되는 캐러셀 UI의 구현 원리에 대해서 설명해보세요.",
+      "is_solved": false
+    },
+    {
+      "id": 13,
+      "content": "최근 가장 깊게 공부하고 있는 부분은 무엇인가요? 그 부분에 대해서 간단하게 설명해보세요.",
+      "is_solved": false
+    },
+    {
+      "id": 14,
+      "content": "CSS의 BEM 방법론에 대해 설명하고 장단점을 말씀해주세요.",
+      "is_solved": false
+    },
+    {
+      "id": 15,
+      "content": "CSS의 Stacking Context에 대해 설명해주세요.",
+      "is_solved": false
+    },
+    {
+      "id": 16,
+      "content": "CSS의 will-change 속성에 대해 설명하고 사용 시 주의점을 말씀해주세요.",
+      "is_solved": false
+    },
+    {
+      "id": 17,
+      "content": "Reflow와 Repaint가 실행되는 시점에 대해 말씀해주세요.",
+      "is_solved": false
+    },
+    {
+      "id": 18,
+      "content": "SEO 최적화 경험에 대해 말씀해주세요.",
+      "is_solved": false
+    },
+    {
+      "id": 19,
+      "content": "개방 주소법(Open Addressing)과 체이닝(Chaining)의 장단점을 비교하세요.",
+      "is_solved": false
+    },
+    {
+      "id": 20,
+      "content": "본인이 경험한 OOP 관점에서의 객체 분리를 설명하고, 느낀 장점을 말해보세요.",
+      "is_solved": false
+    },
+    {
+      "id": 21,
+      "content": "서버 사이드 렌더링(SSR)과 클라이언트 사이드 렌더링(CSR)의 장단점을 비교해주세요.",
+      "is_solved": false
+    },
+    {
+      "id": 22,
+      "content": "크로스 브라우징 이슈를 해결한 경험에 대해 말씀해주세요.",
+      "is_solved": false
+    },
+    {
+      "id": 23,
+      "content": "트리의 순회 방식 중 전위, 중위, 후위 순회를 각각 설명하고, 언제 어떤 순회 방식을 사용하는 것이 좋은지 예를 들어 설명하세요.",
+      "is_solved": false
+    },
+    {
+      "id": 24,
+      "content": "프론트엔드 개발에서 TDD(테스트 주도 개발)를 적용한 경험이 있다면 말씀해주세요.",
+      "is_solved": false
+    },
+    {
+      "id": 25,
+      "content": "프론트엔드 개발에서 함수형 프로그래밍을 적용한 경험이 있다면 말씀해주세요.",
+      "is_solved": false
+    },
+    {
+      "id": 26,
+      "content": "Event Loop에 대해 설명해주세요.",
+      "is_solved": false
+    },
+    {
+      "id": 27,
+      "content": "JavaScript의 이벤트 루프(Event Loop)에 대해 설명해주세요.",
+      "is_solved": false
+    },
+    {
+      "id": 28,
+      "content": "JavaScript의 클로저(Closure)에 대해 설명해주세요.",
+      "is_solved": false
+    }
+  ]
+}

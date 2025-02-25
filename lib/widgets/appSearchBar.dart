@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:inter_box/screens/searchPage.dart';
 
 class AppSearchBar extends StatelessWidget {
   const AppSearchBar({super.key});
@@ -22,33 +23,41 @@ class AppSearchBar extends StatelessWidget {
 
             // 검색 입력창
             Expanded(
-              child: Container(
-                height: 34,
-                decoration: BoxDecoration(
-                  color: Color(0xFFF5F5F5), // 배경색
-                  borderRadius: BorderRadius.circular(10),
-                ),
-                child: Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    crossAxisAlignment: CrossAxisAlignment.center,
-                    children: [
-                      Text(
-                        '관심 있는 키워드를 검색해보세요',
-                        style: TextStyle(
-                          color: Color(0xFF979797), // 텍스트 색상
-                          fontSize: 12, // 폰트 크기
-                          fontFamily: 'Pretendard-SemiBold'
+              child: GestureDetector(
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => SearchPage()),
+                  );
+                },
+                child: Container(
+                  height: 34,
+                  decoration: BoxDecoration(
+                    color: Color(0xFFF5F5F5), // 배경색
+                    borderRadius: BorderRadius.circular(10),
+                  ),
+                  child: Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      crossAxisAlignment: CrossAxisAlignment.center,
+                      children: [
+                        Text(
+                          '관심 있는 키워드를 검색해보세요',
+                          style: TextStyle(
+                            color: Color(0xFF979797), // 텍스트 색상
+                            fontSize: 12, // 폰트 크기
+                            fontFamily: 'Pretendard-SemiBold'
+                          ),
                         ),
-                      ),
-                      Spacer(),
-                      Image.asset(
-                        'asset/images/searchIcon.png',
-                        width: 15,
-                        height: 15,
-                      ),
-                    ],
+                        Spacer(),
+                        Image.asset(
+                          'asset/images/searchIcon.png',
+                          width: 15,
+                          height: 15,
+                        ),
+                      ],
+                    ),
                   ),
                 ),
               ),
