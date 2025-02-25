@@ -1,9 +1,21 @@
 import 'package:flutter/material.dart';
+import 'package:inter_box/widgets/updateJobsModal.dart';
 
 class ProfileSection extends StatelessWidget {
   final Map<String, dynamic> profile;
 
   const ProfileSection({super.key, required this.profile});
+
+  void _openUpdateJobsModal(BuildContext context) {
+    showModalBottomSheet(
+      context: context,
+      isScrollControlled: true, // 🔥 화면을 많이 차지하도록 설정
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.vertical(top: Radius.circular(20)),
+      ),
+      builder: (context) => UpdateJobsModal(), // 🔥 모달 띄우기
+    );
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -35,7 +47,7 @@ class ProfileSection extends StatelessWidget {
                       ),
                       SizedBox(width: 8,),
                       GestureDetector(
-                        onTap: () {},
+                        onTap: () => _openUpdateJobsModal(context),
                         child: Container(
                           padding: EdgeInsets.all(4),
                           decoration: BoxDecoration(

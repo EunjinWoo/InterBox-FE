@@ -6,7 +6,6 @@ class LoginPage extends StatelessWidget {
   const LoginPage({super.key});
 
   void _navigateToMainPage(BuildContext context) {
-    print('btn clicked');
     Navigator.push(
       context,
       MaterialPageRoute(builder: (context) => MainPage()),
