@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:inter_box/screens/myPage.dart';
 import 'package:inter_box/screens/searchPage.dart';
 
 class MainPageSearchBar extends StatelessWidget {
@@ -66,18 +65,10 @@ class MainPageSearchBar extends StatelessWidget {
 
             // 프로필 이미지
             SizedBox(width: 12,),
-            GestureDetector(
-              onTap: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) => Mypage()),
-                );
-              },
-              child: CircleAvatar(
-                radius: 18,
-                backgroundImage: AssetImage('assets/images/profile.jpeg'), // 로컬 이미지 사용 시
-                // backgroundImage: NetworkImage('https://example.com/profile.jpg'), // 네트워크 이미지 사용 시
-              ),
+            CircleAvatar(
+              radius: 18,
+              backgroundImage: AssetImage('assets/images/profile.jpeg'), // 로컬 이미지 사용 시
+              // backgroundImage: NetworkImage('https://example.com/profile.jpg'), // 네트워크 이미지 사용 시
             ),
           ],
         ),
