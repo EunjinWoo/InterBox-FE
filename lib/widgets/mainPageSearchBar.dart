@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:inter_box/screens/searchPage.dart';
 
-class AppSearchBar extends StatelessWidget {
-  const AppSearchBar({super.key});
+class MainPageSearchBar extends StatelessWidget {
+  const MainPageSearchBar({super.key});
 
   @override
   Widget build(BuildContext context) {

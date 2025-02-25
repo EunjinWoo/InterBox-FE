@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:inter_box/widgets/appSearchBar.dart';
+import 'package:inter_box/widgets/mainPageSearchBar.dart';
 import 'package:inter_box/widgets/jobRow.dart';
 import 'package:inter_box/widgets/questionsList.dart';
 
@@ -18,7 +18,7 @@ class MainPage extends StatelessWidget {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          AppSearchBar(),
+          MainPageSearchBar(),
           Divider(
             color: Color(0xFFE1E1E1),
             thickness: 0.5,
