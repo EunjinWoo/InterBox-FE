@@ -1,10 +1,34 @@
+import 'dart:convert';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart' show rootBundle;
 import 'package:inter_box/widgets/mainPageSearchBar.dart';
 import 'package:inter_box/widgets/jobRow.dart';
 import 'package:inter_box/widgets/questionsList.dart';
 
-class MainPage extends StatelessWidget {
+class MainPage extends StatefulWidget {
   const MainPage({super.key});
+
+  @override
+  _MainPageState createState() => _MainPageState();
+}
+
+class _MainPageState extends State<MainPage> {
+  List<Map<String, dynamic>> questions = [];
+
+  @override
+  void initState() {
+    super.initState();
+    loadQuestions();
+  }
+
+  // JSON 파일에서 질문 데이터 불러오기
+  Future<void> loadQuestions() async {
+    final String response = await rootBundle.loadString('assets/data/mock_questions.json');
+    final data = json.decode(response);
+    setState(() {
+      questions = List<Map<String, dynamic>>.from(data['questions']);
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -16,7 +40,6 @@ class MainPage extends StatelessWidget {
         toolbarHeight: 0,
       ),
       body: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
         children: [
           MainPageSearchBar(),
           Divider(
@@ -27,7 +50,9 @@ class MainPage extends StatelessWidget {
           JobRow(
             jobs: ['FrontEnd', 'BackEnd', 'DataEngineering'],
           ),
-          QuestionsList(),
+          Expanded(
+            child: QuestionsList(questions: questions),
+          ),
         ],
       ),
     );
