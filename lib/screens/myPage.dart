@@ -30,7 +30,7 @@ class _MypageState extends State<Mypage> {
 
   // JSON 파일에서 질문 데이터 불러오기
   Future<void> loadQuestions() async {
-    final String response = await rootBundle.loadString('assets/data/mock_questions.json');
+    final String response = await rootBundle.loadString('assets/data/mock_solved_questions.json');
     final data = json.decode(response);
     setState(() {
       questions = List<Map<String, dynamic>>.from(data['questions']);
