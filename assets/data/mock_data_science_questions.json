@@ -1,0 +1,194 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "content": "54321 배열이 있을 때, 어떤 정렬을 사용하면 좋을까요?",
+      "is_solved": false
+    },
+    {
+      "id": 2,
+      "content": "AE 학습시 항상 Loss를 0으로 만들수 있을까?",
+      "is_solved": true
+    },
+    {
+      "id": 3,
+      "content": "Association Rule의 Support, Confidence, Lift에 대해 설명해주세요.",
+      "is_solved": true
+    },
+    {
+      "id": 4,
+      "content": "Auto Encoder에 대해서 아는대로 얘기하라",
+      "is_solved": true
+    },
+    {
+      "id": 5,
+      "content": "Average Pooling과 Max Pooling의 차이점은?",
+      "is_solved": true
+    },
+    {
+      "id": 6,
+      "content": "AVL에 대해 설명해주세요.",
+      "is_solved": false
+    },
+    {
+      "id": 7,
+      "content": "Back Propagation에 대해서 쉽게 설명 한다면?",
+      "is_solved": true
+    },
+    {
+      "id": 8,
+      "content": "Back Propagation은 몇줄인가?",
+      "is_solved": false
+    },
+    {
+      "id": 9,
+      "content": "Batch Normalization의 효과는?",
+      "is_solved": true
+    },
+    {
+      "id": 10,
+      "content": "Bias는 왜 있는걸까?",
+      "is_solved": true
+    },
+    {
+      "id": 11,
+      "content": "BN 적용해서 학습 이후 실제 사용시에 주의할 점은? 코드로는?",
+      "is_solved": false
+    },
+    {
+      "id": 12,
+      "content": "Call by value, call by reference의 차이점을 설명하시오.",
+      "is_solved": false
+    },
+    {
+      "id": 13,
+      "content": "CNN에 대해서 아는대로 얘기하라",
+      "is_solved": true
+    },
+    {
+      "id": 14,
+      "content": "CNN으로 바꾼다면 얼마나 추가될까?",
+      "is_solved": true
+    },
+    {
+      "id": 15,
+      "content": "Cold Start의 경우엔 어떻게 추천해줘야 할까요?",
+      "is_solved": false
+    },
+    {
+      "id": 16,
+      "content": "Collaborative Filtering에 대해 설명한다면?",
+      "is_solved": false
+    },
+    {
+      "id": 17,
+      "content": "Cross Validation은 무엇이고 어떻게 해야하나요?",
+      "is_solved": false
+    },
+    {
+      "id": 18,
+      "content": "Data Normalization은 무엇이고 왜 필요한가요?",
+      "is_solved": false
+    },
+    {
+      "id": 19,
+      "content": "DFS & BFS은?",
+      "is_solved": false
+    },
+    {
+      "id": 20,
+      "content": "DFS와 BFS의 차이를 말해주세요",
+      "is_solved": true
+    },
+    {
+      "id": 21,
+      "content": "Dropout의 효과는?",
+      "is_solved": false
+    },
+    {
+      "id": 22,
+      "content": "Dynamic Programming가 무엇이고 왜 어떻게 사용하는가?",
+      "is_solved": true
+    },
+    {
+      "id": 23,
+      "content": "Dynamic Programming이란? 장점은?",
+      "is_solved": false
+    },
+    {
+      "id": 24,
+      "content": "D를 학습할때 G의 Weight을 고정해야 한다. 방법은?",
+      "is_solved": false
+    },
+    {
+      "id": 25,
+      "content": "Floyd-Warshall 알고리즘이란?",
+      "is_solved": false
+    },
+    {
+      "id": 26,
+      "content": "GAN에 대해 아는대로 설명해주세요",
+      "is_solved": false
+    },
+    {
+      "id": 27,
+      "content": "GAN에서 Generator 쪽에도 BN을 적용해도 될까?",
+      "is_solved": false
+    },
+    {
+      "id": 28,
+      "content": "GAN의 Loss를 적어보면?",
+      "is_solved": true
+    },
+    {
+      "id": 29,
+      "content": "GD가 Local Minima 문제를 피하는 방법은?",
+      "is_solved": true
+    },
+    {
+      "id": 30,
+      "content": "GPU를 두개 다 쓰고 싶다. 방법은?",
+      "is_solved": true
+    },
+    {
+      "id": 31,
+      "content": "Gradient Descent에 대해서 쉽게 설명한다면?",
+      "is_solved": true
+    },
+    {
+      "id": 32,
+      "content": "heap에서 delete 과정을 그려라",
+      "is_solved": true
+    },
+    {
+      "id": 33,
+      "content": "huffman encoding에 대해 설명하라",
+      "is_solved": false
+    },
+    {
+      "id": 34,
+      "content": "insertion sort가 일어나는 과정을 설명해주세요",
+      "is_solved": false
+    },
+    {
+      "id": 35,
+      "content": "L1, L2 정규화에 대해 설명해주세요",
+      "is_solved": false
+    },
+    {
+      "id": 36,
+      "content": "LinkedList vs ArrayList의 차이점에 대해 설명하시오",
+      "is_solved": true
+    },
+    {
+      "id": 37,
+      "content": "배열 A에서 중복되는 원소 찾는 알고리즘을 최적화해보세요.",
+      "is_solved": false
+    },
+    {
+      "id": 38,
+      "content": "배열 A의 최대값을 구하세요.",
+      "is_solved": true
+    }
+  ]
+}

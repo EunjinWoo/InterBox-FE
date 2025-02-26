@@ -1,0 +1,104 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "content": "A/B Test 등 현상 분석 및 실험 설계 상 통계적으로 유의미함의 여부를 결정하기 위한 방법에는 어떤 것이 있을까요?",
+      "is_solved": true
+    },
+    {
+      "id": 2,
+      "content": "Agile 방법론이 무엇인지 설명해주세요",
+      "is_solved": true
+    },
+    {
+      "id": 3,
+      "content": "Bias를 통제하는 방법은 무엇입니까?",
+      "is_solved": true
+    },
+    {
+      "id": 4,
+      "content": "Java에서 Builder 패턴을 사용하는이유는?",
+      "is_solved": false
+    },
+    {
+      "id": 5,
+      "content": "Java에서 팩토리 메서드 패턴을 사용하는 이유는?",
+      "is_solved": false
+    },
+    {
+      "id": 6,
+      "content": "KISS 원칙이란?",
+      "is_solved": false
+    },
+    {
+      "id": 7,
+      "content": "MVP패턴, MVVM패턴이란?",
+      "is_solved": false
+    },
+    {
+      "id": 8,
+      "content": "Observer 패턴은?",
+      "is_solved": true
+    },
+    {
+      "id": 9,
+      "content": "p-value는 요즘 시대에도 여전히 유효할까요? 언제 p-value가 실제를 호도하는 경향이 있을까요?",
+      "is_solved": true
+    },
+    {
+      "id": 10,
+      "content": "p-value를 고객에게는 뭐라고 설명하는게 이해하기 편할까요?",
+      "is_solved": true
+    },
+    {
+      "id": 11,
+      "content": "Singleton, Adapter, Template패턴은 어떤 것인가? 왜 사용하는지? 코드 구현해보시오",
+      "is_solved": true
+    },
+    {
+      "id": 12,
+      "content": "sw공학이란? 필요한 이유? 좋은 설계란?",
+      "is_solved": false
+    },
+    {
+      "id": 13,
+      "content": "Tableau같은 BI Tool은 어느 경우 도입하면 좋을까요?",
+      "is_solved": true
+    },
+    {
+      "id": 14,
+      "content": "TDD란?",
+      "is_solved": true
+    },
+    {
+      "id": 15,
+      "content": "각 고객의 웹 행동에 대하여 실시간으로 상호작용이 가능하다고 할 때에, 이에 적용 가능한 고객 행동 및 모델에 관한 이론을 알아봅시다.",
+      "is_solved": true
+    },
+    {
+      "id": 16,
+      "content": "고객이 내일 어떤 상품을 구매할지 예측하는 모형을 만들어야 한다면 어떤 기법(예: SVM, Random Forest, logistic regression 등)을 사용할 것인지 정하고 이를 통계와 기계학습 지식이 전무한 실무자에게 설명해봅시다.",
+      "is_solved": false
+    },
+    {
+      "id": 17,
+      "content": "고객이 원하는 예측모형을 두가지 종류로 만들었다. 하나는 예측력이 뛰어나지만 왜 그렇게 예측했는지를 설명하기 어려운 random forest 모형이고, 또다른 하나는 예측력은 다소 떨어지나 명확하게 왜 그런지를 설명할 수 있는 sequential bayesian 모형입니다. 고객에게 어떤 모형을 추천하겠습니까?",
+      "is_solved": true
+    },
+    {
+      "id": 18,
+      "content": "고유값(eigen value)와 고유벡터(eigen vector)에 대해 설명해주세요. 그리고 왜 중요할까요?",
+      "is_solved": true
+    },
+    {
+      "id": 19,
+      "content": "나만의 feature selection 방식을 설명해봅시다.",
+      "is_solved": true
+    },
+    {
+      "id": 20,
+      "content": "네트워크 관계를 시각화해야 할 경우 어떻게 해야할까요?",
+      "is_solved": false
+    }
+  ]
+}
