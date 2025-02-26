@@ -69,7 +69,7 @@ class _SearchPageSearchBarState extends State<SearchPageSearchBar> {
                             fontSize: 16,
                           ),
                         ),
-                        onChanged: (value) {
+                        onSubmitted: (value) {
                           widget.onSearch(value); // 검색어 입력 시 부모 위젯(SearchPage)에게 전달
                         },
                       ),
