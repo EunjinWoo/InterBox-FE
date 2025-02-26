@@ -9,11 +9,11 @@ class ProfileSection extends StatelessWidget {
   void _openUpdateJobsModal(BuildContext context) {
     showModalBottomSheet(
       context: context,
-      isScrollControlled: true, // 🔥 화면을 많이 차지하도록 설정
+      isScrollControlled: true, // 화면을 많이 차지하도록 설정
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.vertical(top: Radius.circular(20)),
       ),
-      builder: (context) => UpdateJobsModal(), // 🔥 모달 띄우기
+      builder: (context) => UpdateJobsModal(), // 모달 띄우기
     );
   }
 
@@ -68,7 +68,7 @@ class ProfileSection extends StatelessWidget {
                   ),
                   SizedBox(height: 4,),
                   Text(
-                    profile['jobs'],
+                    profile["jobs"],
                     style: TextStyle(
                       fontFamily: 'Pretendard-Regular',
                       fontSize: 12,
