@@ -17,8 +17,8 @@ class _MypageState extends State<Mypage> {
   List<Map<String, dynamic>> questions = [];
   Map<String, dynamic> profile = {
     "name" : "null",
-    "jobs": [],
-    "profile_image": "null"
+    "jobs": "",
+    "profile_image": "assets/images/default_profile.png"
   };
 
   @override
