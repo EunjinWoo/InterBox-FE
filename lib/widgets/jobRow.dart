@@ -57,7 +57,7 @@ class EachJob extends StatelessWidget {
           jobName,
           style: TextStyle(
             color: isSelected ? Colors.white : Color(0xFFA7A6A2),
-            fontFamily: 'Pretendard-Medium',
+            fontFamily: 'Pretendard-SemiBold',
             fontSize: 14,
           ),
         ),
