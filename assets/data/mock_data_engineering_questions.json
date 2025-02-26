@@ -1,0 +1,219 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "content": "2단계 락킹이란?",
+      "is_solved": true
+    },
+    {
+      "id": 2,
+      "content": "ACID란?",
+      "is_solved": true
+    },
+    {
+      "id": 3,
+      "content": "Apache Hive와 Apache Impala의 차이점을 설명해주세요.",
+      "is_solved": false
+    },
+    {
+      "id": 4,
+      "content": "Commit과 Rollback이란?",
+      "is_solved": true
+    },
+    {
+      "id": 5,
+      "content": "DBMS란?",
+      "is_solved": false
+    },
+    {
+      "id": 6,
+      "content": "DBMS의 기능은?",
+      "is_solved": true
+    },
+    {
+      "id": 7,
+      "content": "DB에서 View는 무엇인가? 가상 테이블이란?",
+      "is_solved": true
+    },
+    {
+      "id": 8,
+      "content": "DDL, DML, DCL에 대해서 설명하세요.",
+      "is_solved": false
+    },
+    {
+      "id": 9,
+      "content": "ETL 프로세스에 대해 설명해주세요.",
+      "is_solved": false
+    },
+    {
+      "id": 10,
+      "content": "GIT의 소스가 있고, 서비스 사용 중인 웹서버가 10대 이상 넘게 있습니다. 어떻게 배포할 건가요?",
+      "is_solved": true
+    },
+    {
+      "id": 11,
+      "content": "IaC(Infrastructure as Code)의 장점에 대해 설명해주세요.",
+      "is_solved": false
+    },
+    {
+      "id": 12,
+      "content": "데이터베이스에서 Index 추가의 장, 단점은?",
+      "is_solved": false
+    },
+    {
+      "id": 13,
+      "content": "Key란? Key의 종류에 대해서 설명하세요.",
+      "is_solved": true
+    },
+    {
+      "id": 14,
+      "content": "Lambda 아키텍처와 Kappa 아키텍처의 차이점을 설명해주세요.",
+      "is_solved": false
+    },
+    {
+      "id": 15,
+      "content": "MapReduce의 작동 원리에 대해 설명해주세요.",
+      "is_solved": true
+    },
+    {
+      "id": 16,
+      "content": "NoSQL이란? 기존 RDBMS와 다른 점은?",
+      "is_solved": false
+    },
+    {
+      "id": 17,
+      "content": "OLTP와 OLAP의 차이점을 설명해주세요.",
+      "is_solved": false
+    },
+    {
+      "id": 18,
+      "content": "ORM이란?",
+      "is_solved": false
+    },
+    {
+      "id": 19,
+      "content": "PostgreSQL의 장점은 무엇일까요?",
+      "is_solved": false
+    },
+    {
+      "id": 20,
+      "content": "Primary Key, Foreign Key, ER 모델이란?",
+      "is_solved": false
+    },
+    {
+      "id": 21,
+      "content": "RDB의 char와 varchar의 차이는 무엇일까요?",
+      "is_solved": false
+    },
+    {
+      "id": 22,
+      "content": "SQL Injection이란?",
+      "is_solved": false
+    },
+    {
+      "id": 23,
+      "content": "SSH로의 brute-force attack을 막기 위해 어떤 조치를 취하시겠습니까?",
+      "is_solved": true
+    },
+    {
+      "id": 24,
+      "content": "Table Full Scan과 Index Range Scan을 설명해주세요.",
+      "is_solved": true
+    },
+    {
+      "id": 25,
+      "content": "TB 단위 이상의 기존 데이터와 시간당 GB 단위의 신생 로그가 들어오는 서비스에서 모든 가입자에게 개별적으로 계산된 실시간 서비스(웹)를 제공하기 위한 시스템 구조를 구상해봅시다.",
+      "is_solved": false
+    },
+    {
+      "id": 26,
+      "content": "UML이란?",
+      "is_solved": false
+    },
+    {
+      "id": 27,
+      "content": "VPN과 SSH의 차이점을 설명해주세요.",
+      "is_solved": false
+    },
+    {
+      "id": 28,
+      "content": "Windows 함수는 무엇이고 어떻게 작성할까요?",
+      "is_solved": false
+    },
+    {
+      "id": 29,
+      "content": "공유락, 배타락이란?",
+      "is_solved": false
+    },
+    {
+      "id": 30,
+      "content": "관계형 데이터베이스의 ACID 속성에 대해 설명해주세요.",
+      "is_solved": false
+    },
+    {
+      "id": 31,
+      "content": "네트워크 보안을 위한 방화벽 설정 방법에 대해 설명해주세요.",
+      "is_solved": false
+    },
+    {
+      "id": 32,
+      "content": "데이터베이스 튜닝 방법에 대해 설명해주세요.",
+      "is_solved": false
+    },
+    {
+      "id": 33,
+      "content": "동작하는 MySQL에 Alter table을 하면 안되는 이유를 설명해주세요. 그리고 대안을 설명해주세요.",
+      "is_solved": false
+    },
+    {
+      "id": 34,
+      "content": "배치 처리와 실시간 처리의 차이점을 설명해주세요.",
+      "is_solved": false
+    },
+    {
+      "id": 35,
+      "content": "보안 감사(Security Audit)의 중요성과 방법에 대해 설명해주세요.",
+      "is_solved": false
+    },
+    {
+      "id": 36,
+      "content": "빅데이터의 3V에 대해 설명해주세요.",
+      "is_solved": false
+    },
+    {
+      "id": 37,
+      "content": "암달의 법칙에 대해 말해봅시다. 그러므로 왜 shared-nothing 구조로 만들어야 하는지 설명해봅시다.",
+      "is_solved": false
+    },
+    {
+      "id": 38,
+      "content": "역정규화를 하는 이유는 무엇인가?",
+      "is_solved": false
+    },
+    {
+      "id": 39,
+      "content": "정규화와 비정규화의 차이점과 각각의 장단점을 설명해주세요.",
+      "is_solved": false
+    },
+    {
+      "id": 40,
+      "content": "조인이 무엇인지? (inner, left, right, outer)",
+      "is_solved": false
+    },
+    {
+      "id": 41,
+      "content": "처음 서버를 샀습니다. 어떤 보안적 조치를 먼저 하시겠습니까?",
+      "is_solved": false
+    },
+    {
+      "id": 42,
+      "content": "쿼리의 성능을 확인하기 위해 어떤 쿼리문을 작성해야 할까요?",
+      "is_solved": false
+    },
+    {
+      "id": 43,
+      "content": "트랜잭션의 격리 수준과 각 수준에서 발생할 수 있는 문제들에 대해 말해보세요.",
+      "is_solved": false
+    }
+  ]
+}

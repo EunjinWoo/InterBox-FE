@@ -1,0 +1,219 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "content": "[Java] 추상클래스와 인터페이스와의 차이는?",
+      "is_solved": false
+    },
+    {
+      "id": 2,
+      "content": "\\n과 endl의 차이는 무엇인가?",
+      "is_solved": false
+    },
+    {
+      "id": 3,
+      "content": "10번 동안 1~10까지 랜덤한 숫자를 출력하여 중복된 숫자가 있을 경우 true, false를 리턴하는 코드를 구현해보시오.",
+      "is_solved": true
+    },
+    {
+      "id": 4,
+      "content": "Anagram이란?",
+      "is_solved": true
+    },
+    {
+      "id": 5,
+      "content": "Annotation이란?",
+      "is_solved": true
+    },
+    {
+      "id": 6,
+      "content": "AOP의 핵심 개념인 Aspect, Join point, Advice, Pointcut의 정의와 각각의 역할을 설명하시오.",
+      "is_solved": true
+    },
+    {
+      "id": 7,
+      "content": "API Gateway가 다운되면 모든 API를 사용 못할지도 모르는데, 어떤 방안을 마련해야 할까요?",
+      "is_solved": false
+    },
+    {
+      "id": 8,
+      "content": "API 문서화의 중요성과 도구들에 대해 설명해주세요.",
+      "is_solved": false
+    },
+    {
+      "id": 9,
+      "content": "Array에서 요소를 검색할 때의 시간 복잡도는 어떻게 되나요?",
+      "is_solved": true
+    },
+    {
+      "id": 10,
+      "content": "Array와 LinkedList 중 어떤 자료구조가 데이터의 크기가 자주 변하는 상황에 더 적합한가요? 왜 그런가요?",
+      "is_solved": false
+    },
+    {
+      "id": 11,
+      "content": "BFS/DFS 알고리즘을 활용하여 해결할 수 있는 다른 그래프 관련 문제는 무엇이 있는가?",
+      "is_solved": false
+    },
+    {
+      "id": 12,
+      "content": "Blind SQL Injection이란 무엇이며, 일반적인 SQL Injection과 어떻게 다른가요?",
+      "is_solved": false
+    },
+    {
+      "id": 13,
+      "content": "C++ 프로그램의 전처리(Preprocessing), 컴파일(Compilation), 어셈블(Assembly), 링킹(Linking) 단계를 순서대로 설명하시오.",
+      "is_solved": true
+    },
+    {
+      "id": 14,
+      "content": "Cache Memory의 역할은 무엇인가?",
+      "is_solved": false
+    },
+    {
+      "id": 15,
+      "content": "Call Stack에 대해 설명하시오.",
+      "is_solved": true
+    },
+    {
+      "id": 16,
+      "content": "CAP 이론에 대해 설명해주세요.",
+      "is_solved": false
+    },
+    {
+      "id": 17,
+      "content": "Constructor와 Destructor에 대해 설명하라.",
+      "is_solved": false
+    },
+    {
+      "id": 18,
+      "content": "Context Switching이란?",
+      "is_solved": true
+    },
+    {
+      "id": 19,
+      "content": "CQRS(Command Query Responsibility Segregation) 패턴에 대해 설명해주세요.",
+      "is_solved": false
+    },
+    {
+      "id": 20,
+      "content": "DAO(Data Access Object)란?",
+      "is_solved": true
+    },
+    {
+      "id": 21,
+      "content": "Deadlock의 발생 조건과 Deadlock을 깨기 위해서 어떻게 해야하나요?",
+      "is_solved": false
+    },
+    {
+      "id": 22,
+      "content": "DI(Dependency Injection)에 대해 말해주세요.",
+      "is_solved": false
+    },
+    {
+      "id": 23,
+      "content": "Dispatcher-Servlet은 무엇인가요?",
+      "is_solved": false
+    },
+    {
+      "id": 24,
+      "content": "DNS(Domain Name System)의 작동 원리에 대해 설명해주세요.",
+      "is_solved": false
+    },
+    {
+      "id": 25,
+      "content": "Garbage Collection이란?",
+      "is_solved": false
+    },
+    {
+      "id": 26,
+      "content": "GET과 POST의 차이는?",
+      "is_solved": false
+    },
+    {
+      "id": 27,
+      "content": "GraphQL의 장단점에 대해 설명해주세요.",
+      "is_solved": false
+    },
+    {
+      "id": 28,
+      "content": "gRPC의 특징과 장점에 대해 설명해주세요.",
+      "is_solved": false
+    },
+    {
+      "id": 29,
+      "content": "Heap 메모리는 무엇이고 사용하는 이유는 무엇인가?",
+      "is_solved": false
+    },
+    {
+      "id": 30,
+      "content": "Heap과 Stack의 장단점 비교 (속도, 크기 등)하시오.",
+      "is_solved": false
+    },
+    {
+      "id": 31,
+      "content": "HTTP Method 종류 및 역할을 설명하시오.",
+      "is_solved": false
+    },
+    {
+      "id": 32,
+      "content": "HTTP 프로토콜에 대해서 아는대로 말해주세요.",
+      "is_solved": false
+    },
+    {
+      "id": 33,
+      "content": "HTTP와 HTTPS의 차이는?",
+      "is_solved": false
+    },
+    {
+      "id": 34,
+      "content": "JWT의 구조와 각 부분의 역할에 대해 설명해주세요.",
+      "is_solved": false
+    },
+    {
+      "id": 35,
+      "content": "LinkedList에서 역방향 순회를 구현하려면 어떻게 해야 할까요?",
+      "is_solved": false
+    },
+    {
+      "id": 36,
+      "content": "Memory Leak의 대처방법",
+      "is_solved": false
+    },
+    {
+      "id": 37,
+      "content": "merge, rebase, squash의 차이",
+      "is_solved": false
+    },
+    {
+      "id": 38,
+      "content": "MyBatis에 대해 설명해주세요.",
+      "is_solved": false
+    },
+    {
+      "id": 39,
+      "content": "OAuth 2.0의 작동 방식에 대해 설명해주세요.",
+      "is_solved": false
+    },
+    {
+      "id": 40,
+      "content": "OSI 7계층 모델에 대해 설명해주세요.",
+      "is_solved": false
+    },
+    {
+      "id": 41,
+      "content": "Queue를 활용한 실제 응용 사례 3가지를 제시하세요.",
+      "is_solved": false
+    },
+    {
+      "id": 42,
+      "content": "Race Condition이란?",
+      "is_solved": false
+    },
+    {
+      "id": 43,
+      "content": "reset과 revert의 차이는?",
+      "is_solved": false
+    }
+  ]
+}

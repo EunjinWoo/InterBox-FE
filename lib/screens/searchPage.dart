@@ -17,18 +17,24 @@ class SearchPage extends StatefulWidget {
 class _SearchPageState extends State<SearchPage> {
   String closestJob = '';
   List<Map<String, dynamic>> questions = [];
-
-  @override
-  void initState() {
-    super.initState();
-    loadQuestions();
-  }
+  String searchKeyword = '';
 
   // JSON 파일에서 질문 데이터 불러오기
-  Future<void> loadQuestions() async {
+  Future<void> loadQuestions(String keyword) async {
+    print(keyword);
+    if (keyword.isEmpty) {
+      setState(() {
+        searchKeyword = '';
+        questions = [];
+        closestJob = '';
+      });
+      return;
+    }
+
     final String response = await rootBundle.loadString('assets/data/mock_search_api.json');
     final data = json.decode(response);
     setState(() {
+      searchKeyword = keyword;
       closestJob = data['closest_job'];
       questions = List<Map<String, dynamic>>.from(data['questions']);
     });
@@ -42,14 +48,21 @@ class _SearchPageState extends State<SearchPage> {
         elevation: 0,
         toolbarHeight: 0,
       ),
-      body: Column(
-        children: [
-          SearchPageSearchBar(),
-          SearchPageNotice(closestJob: closestJob),
-          Expanded(
-            child: QuestionsList(questions: questions),
-          ),
-        ],
+      body: Container(
+        color: Colors.white,
+        child: Column(
+          children: [
+            SearchPageSearchBar(
+              onSearch: (keyword) {
+                loadQuestions(keyword);
+              },
+            ),
+            if (searchKeyword.isNotEmpty) ...[
+              SearchPageNotice(closestJob: closestJob),
+              Expanded(child: QuestionsList(questions: questions)),
+            ]
+          ],
+        ),
       ),
     );
   }

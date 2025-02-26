@@ -1,0 +1,154 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "content": "A/B Test 등 현상 분석 및 실험 설계 상 통계적으로 유의미함의 여부를 결정하기 위한 방법에는 어떤 것이 있을까요?",
+      "is_solved": true
+    },
+    {
+      "id": 2,
+      "content": "Agile 방법론이 무엇인지 설명해주세요",
+      "is_solved": true
+    },
+    {
+      "id": 3,
+      "content": "Bias를 통제하는 방법은 무엇입니까?",
+      "is_solved": true
+    },
+    {
+      "id": 8,
+      "content": "Observer 패턴은?",
+      "is_solved": true
+    },
+    {
+      "id": 9,
+      "content": "p-value는 요즘 시대에도 여전히 유효할까요? 언제 p-value가 실제를 호도하는 경향이 있을까요?",
+      "is_solved": true
+    },
+    {
+      "id": 10,
+      "content": "p-value를 고객에게는 뭐라고 설명하는게 이해하기 편할까요?",
+      "is_solved": true
+    },
+    {
+      "id": 11,
+      "content": "Singleton, Adapter, Template패턴은 어떤 것인가? 왜 사용하는지? 코드 구현해보시오",
+      "is_solved": true
+    },
+    {
+      "id": 13,
+      "content": "Tableau같은 BI Tool은 어느 경우 도입하면 좋을까요?",
+      "is_solved": true
+    },
+    {
+      "id": 14,
+      "content": "TDD란?",
+      "is_solved": true
+    },
+    {
+      "id": 17,
+      "content": "고객이 원하는 예측모형을 두가지 종류로 만들었다. 하나는 예측력이 뛰어나지만 왜 그렇게 예측했는지를 설명하기 어려운 random forest 모형이고, 또다른 하나는 예측력은 다소 떨어지나 명확하게 왜 그런지를 설명할 수 있는 sequential bayesian 모형입니다. 고객에게 어떤 모형을 추천하겠습니까?",
+      "is_solved": true
+    },
+    {
+      "id": 18,
+      "content": "고유값(eigen value)와 고유벡터(eigen vector)에 대해 설명해주세요. 그리고 왜 중요할까요?",
+      "is_solved": true
+    },
+    {
+      "id": 19,
+      "content": "나만의 feature selection 방식을 설명해봅시다.",
+      "is_solved": true
+    },
+    {
+      "id": 25,
+      "content": "데이터 분석가가 되기 위해 어떤 노력을 해오셨나요?",
+      "is_solved": true
+    },
+    {
+      "id": 27,
+      "content": "모수가 매우 적은 (수십개 이하) 케이스의 경우 어떤 방식으로 예측 모델을 수립할 수 있을까요?",
+      "is_solved": true
+    },
+    {
+      "id": 29,
+      "content": "분석 프로젝트에서 어려움을 겪었던 사례를 설명해주세요.",
+      "is_solved": true
+    },
+    {
+      "id": 30,
+      "content": "브룩스의 법칙이란?",
+      "is_solved": true
+    },
+    {
+      "id": 34,
+      "content": "수레바퀴의 재발명이란?",
+      "is_solved": true
+    },
+    {
+      "id": 36,
+      "content": "신규/재방문자별 지역별(혹은 일별) 방문자수와 구매전환율이나 '고객등급별 최근방문일별 고객수와 평균구매금액'와 같이 4가지 이상의 정보를 시각화하는 가장 좋은 방법을 추천해주세요",
+      "is_solved": true
+    },
+    {
+      "id": 37,
+      "content": "애자일 방법론이란?",
+      "is_solved": true
+    },
+    {
+      "id": 43,
+      "content": "요즘같은 빅데이터(?)시대에는 정규성 테스트가 의미 없다는 주장이 있습니다. 맞을까요?",
+      "is_solved": true
+    },
+    {
+      "id": 44,
+      "content": "워드클라우드는 보기엔 예쁘지만 약점이 있습니다. 어떤 약점일까요?",
+      "is_solved": true
+    },
+    {
+      "id": 46,
+      "content": "조슈아 나무의 법칙이란?",
+      "is_solved": true
+    },
+    {
+      "id": 48,
+      "content": "중심극한정리는 왜 유용한걸까요?",
+      "is_solved": true
+    },
+    {
+      "id": 49,
+      "content": "출장을 위해 비행기를 타려고 합니다. 당신은 우산을 가져가야 하는지 알고 싶어 출장지에 사는 친구 3명에게 무작위로 전화를 하고 비가 오는 경우를 독립적으로 질문해주세요. 각 친구는 2/3로 진실을 말하고 1/3으로 거짓을 말합니다. 3명의 친구가 모두 '그렇습니다. 비가 내리고 있습니다'라고 말했습니다. 실제로 비가 내릴 확률은 얼마입니까?",
+      "is_solved": true
+    },
+    {
+      "id": 51,
+      "content": "클린코드란?",
+      "is_solved": true
+    },
+    {
+      "id": 53,
+      "content": "필요한 표본의 크기를 어떻게 계산합니까?",
+      "is_solved": true
+    },
+    {
+      "id": 58,
+      "content": "베이지안과 프리퀀티스트간의 입장차이를 설명해주실 수 있나요?",
+      "is_solved": true
+    },
+    {
+      "id": 60,
+      "content": "Monolitc Architecture, Micro Service Architecture에 대해 각각 설명해 주세요.",
+      "is_solved": true
+    },
+    {
+      "id": 61,
+      "content": "객체지향 SOLID 원칙에 대해서 설명해 주세요.",
+      "is_solved": true
+    },
+    {
+      "id": 62,
+      "content": "클래스, 객체, 인스턴스 차이에 대해서 설명해 주세요.",
+      "is_solved": true
+    }
+  ]
+}
